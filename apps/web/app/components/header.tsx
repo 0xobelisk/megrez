@@ -1,6 +1,5 @@
 
 import React, { useState } from 'react';
-import { ConnectButton, useCurrentAccount } from '@mysten/dapp-kit';
 
 export default function Header() {
 
@@ -16,7 +15,6 @@ export default function Header() {
         >
           ZK-Login
         </button>
-        <ConnectButton className="bg-white text-blue-600 hover:bg-blue-100 font-medium py-2 px-4 rounded" />
       </div>
     </header>
   );
