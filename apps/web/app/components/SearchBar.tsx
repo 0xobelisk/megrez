@@ -21,11 +21,11 @@ export default function SearchBar() {
       <Input
         type="search"
         placeholder="Search packages"
-        className="w-full py-3 pl-12 pr-4 text-white bg-white bg-opacity-10 rounded-full border-none focus:ring-2 focus:ring-white"
+        className="w-full h-12 pl-12 pr-4 text-lg bg-white/10 backdrop-blur-sm border-2 border-white/20 rounded-full text-white placeholder:text-white/70 focus:border-white/40 focus:ring-2 focus:ring-white/20"
         value={searchQuery}
         onChange={(e) => setSearchQuery(e.target.value)}
       />
-      <Search className="absolute left-4 top-1/2 transform -translate-y-1/2 text-white opacity-70" />
+      <Search className="absolute left-4 top-1/2 transform -translate-y-1/2 text-white/70 w-5 h-5" />
     </form>
   );
 } 

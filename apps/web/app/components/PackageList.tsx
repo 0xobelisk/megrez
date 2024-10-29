@@ -49,7 +49,9 @@ export default function PackageList({ packages }: PackageListProps) {
           ))}
         </div>
         <div className="flex justify-end mt-6">
-          <button className="text-blue-600 hover:underline">VIEW ALL</button>
+          <Link href="/packages" className="text-blue-600 hover:underline">
+            VIEW ALL
+          </Link>
         </div>
       </div>
 
@@ -80,7 +82,9 @@ export default function PackageList({ packages }: PackageListProps) {
           ))}
         </div>
         <div className="flex justify-end mt-6">
-          <button className="text-blue-600 hover:underline">VIEW ALL</button>
+          <Link href="/packages" className="text-blue-600 hover:underline">
+            VIEW ALL
+          </Link>
         </div>
       </div>
     </div>
