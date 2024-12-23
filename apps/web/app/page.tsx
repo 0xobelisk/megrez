@@ -13,8 +13,8 @@ export default async function Page() {
           <div className="absolute inset-0 bg-gradient-to-br from-blue-600 to-blue-700" />
           
           <main className="relative z-10 flex flex-col items-center justify-center min-h-[500px] px-4">
-            <h1 className="text-5xl font-bold mb-4">Package.dev</h1>
-            <p className="text-xl mb-8">The official package repository for Sui and Sui dapps.</p>
+            <h1 className="text-5xl font-bold mb-4">megrez.obelisk.build</h1>
+            <p className="text-xl mb-8">The official package repository for Move and Move dapps.</p>
             
             <Suspense fallback={<div>Loading...</div>}>
               <SearchBar />
